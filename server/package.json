@@ -1,0 +1,26 @@
+{
+  "name": "api_busca_filmes",
+  "version": "1.0.0",
+  "description": "API desenvolvida em Node.JS para o desafio prático do Processo Seletivo da Senior.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "expressjs",
+    "axios"
+  ],
+  "author": "Nayara Martovic da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
