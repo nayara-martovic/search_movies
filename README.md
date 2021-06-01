@@ -17,7 +17,7 @@ Primeiro entre na pasta **server** dentro do projeto e execute:
 npm install
 ```
 
-E para rodar o projeto:
+E para rodar a API:
 ```
 npm run dev
 ```
