@@ -1,5 +1,5 @@
 {
-  "name": "api_busca_filmes",
+  "name": "api_search_movies",
   "version": "1.0.0",
   "description": "API desenvolvida em Node.JS para o desafio prático do Processo Seletivo da Senior.",
   "main": "index.js",

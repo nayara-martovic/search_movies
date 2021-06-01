@@ -1,17 +1,15 @@
 const MovieService = require("../services/movie_service");
 const Response = require("../utils/response");
 
-const resp = new Response();
-
 class MovieController {
 
     static getMoviesCountsByYear(req, res) {
         let title = req.query.title;
+        const resp = new Response();
 
         return MovieService
             .getAllMoviesByTitle(title)
             .then(response => {
-                console.log(response);
                 if (response && response.length){
                     response = MovieService.countMoviesByYear(response);
                     resp.setSuccess("Movies founded", response);

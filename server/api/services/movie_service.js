@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const urlService = 'https://jsonmock..com/api/movies/search/';
+const urlService = 'https://jsonmock.hackerrank.com/api/movies/search/';
 
 class MovieService {
     static getAllMoviesByTitle(title) {

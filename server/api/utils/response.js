@@ -14,6 +14,7 @@ class Response {
 
     setError(error) {
       this.statusCode = 500;
+      this.data = null;
 
       if (error instanceof Error)
         this.message = error.message;
@@ -24,6 +25,7 @@ class Response {
     setNotFound(message) {
       this.statusCode = 404;
       this.message = message;
+      this.data = null;
     }
   
     send(res) {
@@ -33,6 +35,9 @@ class Response {
         data: this.data,
       };
   
+      res.set('Access-Control-Allow-Origin', '*');
+      res.set('Content-Type', 'application/json');
+
       return res.status(this.statusCode).json(result);
     }
 }
