@@ -1,6 +1,6 @@
 # Search Movies
 
-Este projeto foi desenvolvida em Node.JS e React para o desafio prático do Processo Seletivo da Senior.
+Este projeto foi desenvolvido em Node.JS e React para o desafio prático do Processo Seletivo da Senior.
 
 # Clonando o projeto
 
